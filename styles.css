@@ -62,6 +62,10 @@ ul{
 
 }
 
+hr{
+    margin:10px 0px;
+}
+
 .showcase{
     width: 100%;
     height: 550px;
@@ -71,6 +75,7 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 .btn{
@@ -88,4 +93,39 @@ ul{
 
 .btn:hover{
     opacity: .6;
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+
+.news-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:25px;
+    margin:10px 0px;
+}
+
+.news-cards img{
+    width: 100%;
+    height: 180px;
+}
+
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px 0px;
+    
+}
+
+.news-cards a{
+    padding: 10px 0;
+    font-weight: bold;
+    color:#f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.news-cards a:hover{
+    text-decoration: underline;
 }
