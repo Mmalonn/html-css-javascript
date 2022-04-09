@@ -146,3 +146,13 @@ hr{
 .cards-banner-one h2{
     margin:10px 0 20px 0;
 }
+
+.cards-banner-two{
+    background:url(img/banner2.jpg) no-repeat center center/cover;
+}
+
+.cards-banner-two .content {
+    width: 50%;
+    padding: 100px 0 0 30px;
+    color:#fff;
+}
