@@ -70,7 +70,7 @@ hr{
     width: 100%;
     height: 550px;
     background:url(/img/tecno.jpg) no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,4 +215,22 @@ hr{
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
+}
+
+
+
+@media (max-width: 700px){
+    .news-cards{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+    .cards-banner-one .content{
+        width: 80%;
+    }
+    .cards-banner-two .content{
+        width: 80%
+    }
+    .footer-links .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
